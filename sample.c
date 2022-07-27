@@ -1,19 +1,23 @@
-#include "main.h"
-
-/**
- * burn
- */
- 
-void free_data(data_shell *datash)
+int sample_func(char suffix)
 {
-	unsigned int i;
+	int var;
 
-	for (i = 0; datash->_environ[i]; i++)
+	var = 0;
+	switch (suffix)
 	{
-		free(datash->_environ[i]);
+	case 'G':
+	case 'g':
+		var = 30;
+		break;
+	case 'M':
+	case 'm':
+		var = 20;
+		break;
+	case 'K':
+	case 'k':
+		var = 10;
+	default:
+		break;
 	}
-
-	free(datash->_environ);
-	free(datash->pid);
+	return (var);
 }
-

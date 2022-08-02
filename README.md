@@ -284,6 +284,7 @@ $
 ## Authors :black_nib:
 
 * **Luke Bamtefa** **||** [Github](https://github.com/heisluke) **|**
+* **Pamilerin Adesokan** **||** [Mail](pamilerinadesokan@gmail.com) **|**
 
 ## Acknowledgements :pray:
 
